@@ -4,11 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@^4/dist/css/bootstrap.min.css">
-    <title>Template | Bootstrap 4 Examples</title>
+    <style type="text/css">
+      /* basic styles to demo layout */
+      .container {
+        background: #D5D5D5;
+      }
+      .container:nth-of-type(2) {
+        background: #9099A2;
+      }
+    </style>
+    <title>Multiple Containers | Bootstrap 4 Examples</title>
   </head>
   <body>
-    <h1>Bootstrap 4 Template</h1>
-    <p>Using unpkg.com CDN.</p>
+    <div class="container">
+      container
+    </div>
+    <div class="container">
+      container
+    </div>
+    <div class="container">
+      container
+    </div>
     <script src="https://unpkg.com/jquery@^3/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/popper.js@^1/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tooltip.js@^1/dist/umd/tooltip.min.js"></script>
